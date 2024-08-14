@@ -153,7 +153,7 @@ class GivingSummaryChart extends StatelessWidget {
                     touchTooltipData: LineTouchTooltipData(
                       tooltipRoundedRadius: 8,
                       tooltipPadding: const EdgeInsets.all(8),
-                      tooltipBgColor: Colors.blueAccent,
+                      
                       getTooltipItems: (List<LineBarSpot> touchedSpots) {
                         return touchedSpots.map((spot) {
                           return LineTooltipItem(

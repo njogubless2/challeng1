@@ -60,7 +60,7 @@ class _GiveScreenState extends State<GiveScreen> {
               title: 'Wallet Balance',
               subtitle: 'Wema Bank - 0902902993 (Rereloluwa .A)',
               amount: _isBalanceVisible ? '₦790,000.00' : '******',
-              iconPath: 'assets/icons/wallet.png',
+              iconPath: 'assets/images/wallet.jpg',
               actions: Row(
                 children: [
                   IconButton(
